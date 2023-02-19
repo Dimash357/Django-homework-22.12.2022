@@ -1,7 +1,7 @@
 from django.db import models
 
 class Data(models.Model):
-    data = models.TextField()
+    data = models.CharField()
 
 from rest_framework import serializers
 
